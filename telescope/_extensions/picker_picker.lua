@@ -43,7 +43,6 @@ local function picker_picker(opts)
     }):find()
 end
 
--- TODO MOVE THIS TO SEPARATE REPO
 return require('telescope').register_extension {
     exports = { picker_picker = picker_picker },
 }
